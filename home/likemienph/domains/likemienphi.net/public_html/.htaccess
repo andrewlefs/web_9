@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !\.(png|gif|ico|swf|jpe?g|js|css)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+rewritecond %{http_host} ^likemienphi.net/ [nc]
+rewriterule ^(.*)$ http://www.likemienphi.net/ [r=301,R,L]
+
+rewritecond %{http_host} ^likemienphi.net [nc]
+rewriterule ^(.*)$ http://www.likemienphi.net/$1 [r=301,R,L]
+rewritecond %{http_host} ^likemienphi.net/$1 [nc]
+rewriterule ^(.*)$ http://www.likemienphi.net/$1 [r=301,R,L]
+

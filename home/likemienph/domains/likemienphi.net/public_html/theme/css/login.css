@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.btnsignin, a.btnsignout {
+	padding:5px 8px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a.btnsigninon {
+	background:#444!important;
+	color:#fff!important;
+	outline:none;
+}
+#frmsignin {
+margin-left:330px;
+	display:none;
+	background-color:#444;
+	position:absolute;
+	width:200px;
+	top:25px;
+	padding:12px;
+	*margin-top: 5px;
+	font-size:11px;
+	z-index:100;
+	color:#fff;
+}
+*html #frmsignin {
+	position:relative;
+	top:0px;
+}
+#frmsignin input[type=text], #frmsignin input[type=password] {
+	display:block;
+	border:1px solid #fff;
+	margin:0 0 5px;
+	padding:3px;
+	width:180px;
+}
+#frmsignin p {
+	margin:0;
+}
+#frmsignin label {
+	font-weight:normal;
+}
+#submitbtn {
+	background-color:#0089e1;
+	border:none;
+	color:#fff;
+	padding:3px 6px;
+	margin:0 2px 0 0;
+	font:bold 11px arial;
+}
+*html #submitbtn {
+	padding:1px 1px;
+}
+#submitbtn:hover, #submitbtn:focus {
+	cursor:pointer;
+}
+.submit {
+	padding-top:5px;
+}
+#msg {
+	color:#fff;
+}
+#msg img {
+	margin-bottom:-3px;
+}
+#msg p {
+	margin:5px 0;
+}
+#msg p:last-child {
+	margin-bottom:0px;
+}

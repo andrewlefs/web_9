@@ -1,0 +1,6 @@
+
+ system
+ 
+require_once("libs/functions.php");
+require_once("libs/MySQL_connection.php");
+

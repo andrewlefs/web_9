@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+*html .nav_top {margin-top:-1px;}
+*html .main_right {width:295px;}
+*html .cont_sub_main_left {display:inline;}
+*html .search {display:inline;}
+*html .searchbutton {padding-top:1px;}
+*html .sub_mr {margin-bottom:-20px;}
+*html .round_top {background:url(../images/bg_top_right.gif) no-repeat bottom center;}
+*html .round_bot {background:url(../images/bg_bot_right.gif) no-repeat top center;}
+*html .cont-slider {margin-top:-30px;}
+*html .word-footer {margin-top:10px;}
+*html .main_right {margin-top:-15px;}
+*html .form_contact {width:647px; display:inline; padding:0;}
+*html .info_comp {width:647px; display:inline; padding:0;}
+*html .winput {height:18px; padding-top:5px;}
